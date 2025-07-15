@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.member-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.member-card h3 {
+    color: #007bff;
+    margin-top: 0;
+}
+
+.member-card p {
+    font-size: 0.95rem;
+}
+
+.cv-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
